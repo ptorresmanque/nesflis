@@ -17,7 +17,7 @@ export class HomePage {
   }
 
   reproducir(){
-    this.streamingMedia.playVideo('http://pillan.inf.uct.cl/~ptorres/peliculas/Wonder%20Woman%20(2017)%20HDRip%20Dual%201080p%20%5bwWw.PelisMEGAHD.Pe%5d.mkv', this.options);
+    this.streamingMedia.playVideo('http://pillan.inf.uct.cl/~ptorres/secuencia_1.mp4', this.options);
   }
 
 }
