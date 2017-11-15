@@ -8,11 +8,13 @@ import { StreamingMedia, StreamingVideoOptions } from '@ionic-native/streaming-m
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { IntroPage } from "../pages/intro/intro";
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    IntroPage
   ],
   imports: [
     BrowserModule,
@@ -21,7 +23,8 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    IntroPage
   ],
   providers: [
     StatusBar,
